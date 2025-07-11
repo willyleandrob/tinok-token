@@ -1,75 +1,43 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>TINOK Token – Revolución Emocional</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-  <style>
-    body {margin:0; font-family:'Poppins',sans-serif; background:#f5f7fa; color:#333;}
-    header {padding:80px 20px; background: linear-gradient(135deg,#4db6ac,#81c784); color:#fff; text-align:center;}
-    header h1{font-size:3rem; margin-bottom:20px;}
-    header p{font-size:1.2rem; max-width:600px; margin:0 auto 30px;}
-    .btn{background:#00c853;color:#fff;padding:15px 30px;border:none;border-radius:6px;font-size:1.1rem;cursor:pointer;}
-    .section{padding:60px 20px;max-width:1000px;margin:0 auto;}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:30px;text-align:left;}
-    .card{background:#fff;border-radius:8px;padding:20px;box-shadow:0 2px 10px rgba(0,0,0,0.05);}
-    footer{padding:40px 20px; background:#e0f2f1; text-align:center;}
-    input[type="number"] {padding:10px;width:200px;font-size:1rem;margin:10px auto;border-radius:5px;border:1px solid #ccc;}
-  </style>
-</head>
-<body>
-  <header>
-    <h1>TINOK Token</h1>
-    <p>De una pérdida personal… nació una revolución emocional global. Conviértete en inversor de propósito.</p>
-    <button class="btn" onclick="document.getElementById('buy').scrollIntoView({behavior:'smooth'})">💰 Comprar TIN</button>
-  </header>
+<!-- Hero Section -->
+<header style="padding: 80px 20px; background: linear-gradient(135deg,#4db6ac,#81c784); color:#fff; text-align:center;">
+  <img src="logo.png" alt="TINOK Logo" style="max-width: 150px; margin-bottom: 20px;">
+  <h1 style="font-size:3rem; margin-bottom:20px;">TINOK Token</h1>
+  <p style="font-size:1.2rem; max-width:600px; margin:0 auto 30px;">
+    Del dolor nació una misión. Del amor, una revolución emocional.
+  </p>
+  <button onclick="document.getElementById('buy').scrollIntoView({behavior:'smooth'})"
+          style="background:#00c853;color:#fff;padding:15px 30px;border:none;border-radius:6px;font-size:1.1rem;cursor:pointer;">
+    💰 Comprar Tokens Ahora
+  </button>
+</header>
 
-  <div class="section">
-    <h2>¿Por qué invertir?</h2>
-    <div class="grid">
-      <div class="card"><h3>Utilidad real</h3><p>Se usa en la app para pagar coaches, servicios y recompensas.</p></div>
-      <div class="card"><h3>Gamificación</h3><p>Recompensas, logros y comunidad activa.</p></div>
-      <div class="card"><h3>Impacto humano</h3><p>Una misión con propósito y sentido espiritual.</p></div>
-      <div class="card"><h3>Crecimiento global</h3><p>Mercado emocional sin fronteras.</p></div>
-    </div>
+<!-- Ilustraciones emocionales -->
+<section style="padding: 60px 20px; background: #f0f4f8; text-align: center;">
+  <h2 style="font-size: 2rem; color: #2e7d32; margin-bottom: 20px;">Una misión con emoción</h2>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+    <img src="https://source.unsplash.com/400x300/?hope" style="border-radius: 10px;" alt="Esperanza">
+    <img src="https://source.unsplash.com/400x300/?healing" style="border-radius: 10px;" alt="Sanación">
+    <img src="https://source.unsplash.com/400x300/?community" style="border-radius: 10px;" alt="Comunidad">
   </div>
+</section>
 
-  <div class="section" id="buy">
-    <h2>Compra tokens TINOK</h2>
-    <p>1 USDT = 1 TIN • Mínimo 20 TIN</p>
-    <input type="number" id="amount" min="20" placeholder="Cantidad (mínimo 20)">
-    <br>
-    <button class="btn" onclick="buyTokens()">Comprar con USDT</button>
-    <p id="status"></p>
+<!-- Mockup de la App -->
+<section style="padding: 60px 20px; background: #ffffff; text-align: center;">
+  <h2 style="font-size: 2rem; color: #2e7d32; margin-bottom: 20px;">La app que conecta alma, cuerpo y mente</h2>
+  <p style="max-width: 700px; margin: 0 auto 30px;">Con TINOK puedes acceder a ayuda emocional y espiritual en cualquier momento. Psicólogos, pastores y entrenadores están a un clic de ti.</p>
+  <img src="mockup_app.png" alt="Mockup App" style="max-width: 300px; box-shadow: 0 8px 20px rgba(0,0,0,0.1); border-radius: 20px;">
+</section>
+
+<!-- Testimonio del Fundador -->
+<section style="background: linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url('https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&fit=crop&w=1400&q=80') no-repeat center center/cover; padding: 80px 20px; text-align: center;">
+  <div style="max-width: 800px; margin: 0 auto;">
+    <h2 style="font-size: 2rem; color: #2e7d32; margin-bottom: 30px;">Una voz con propósito</h2>
+    <p style="font-size: 1.3rem; line-height: 1.8; color: #333;">
+      “TINOK no es solo un token. Es una semilla de propósito. Nació del dolor más profundo y fue regado con fe, con lágrimas y visión.
+      Invertir aquí no es apostar: es sembrar en un terreno que puede sanar, transformar y encender vidas.
+      Este proyecto es para los que ya no buscan acumular, sino dejar legado. Si alguna vez te preguntaste si lo que haces tiene sentido…
+      aquí está tu respuesta.”
+    </p>
+    <p style="margin-top: 20px; font-weight: bold; color: #444;">— Willy Leandro, Fundador de TINOK</p>
   </div>
-
-  <footer>
-    <p>“TINOK no es solo una app, es una revolución emocional.” — <em>Willy Leandro</em></p>
-    <p>&copy; 2025 TINOK Token</p>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/web3@1.6.1/dist/web3.min.js"></script>
-  <script>
-    const usdt = '0xdAC17F958D2ee523a2206206994597C13D831ec7';
-    const rec = '0x3668515ae1430D8F9FE5b5cF74F6e357868aD5f0';
-    async function buyTokens(){
-      if(!window.ethereum) return alert('Instala MetaMask');
-      const web3=new Web3(window.ethereum);
-      await window.ethereum.enable();
-      const [acc]=await web3.eth.getAccounts();
-      const amt=document.getElementById('amount').value;
-      const status=document.getElementById('status');
-      if(amt<20){status.innerText='Mínimo 20 TIN';return;}
-      const val=web3.utils.toWei(amt,'mwei');
-      const abi=[{"name":"transfer","type":"function","inputs":[{"name":"_to","type":"address"},{"name":"_value","type":"uint256"}],"constant":false,"outputs":[{"name":"","type":"bool"}]}];
-      const contract=new web3.eth.Contract(abi,usdt);
-      status.innerText='Procesando...';
-      contract.methods.transfer(rec,val).send({from:acc})
-        .on('transactionHash',h=>status.innerText=`Hash: ${h}`)
-        .on('receipt',r=>status.innerText='¡Éxito! Gracias por invertir.')
-        .on('error',e=>status.innerText=`Error: ${e.message}`);
-    }
-  </script>
-</body>
-</html>
+</section>
